@@ -4,7 +4,8 @@
 // import Mathematics.Factorial;
 // import Mathematics.TrailingZeros;
 // import Mathematics.GCD;
-import Mathematics.LCM;
+// import Mathematics.LCM;
+import Mathematics.Prime;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,15 +25,23 @@ public class Main {
 
         // Calling Mathematics.TrailingZeroes
         // int num = 10;
-        // System.out.println("Number of trailing zeroes in " + num + " is : " + TrailingZeros.get(num));
+        // System.out.println("Number of trailing zeroes in " + num + " is : " +
+        // TrailingZeros.get(num));
 
         // Caliing Mathematics.GCD
         // int num1 = 12, num2 = 15;
-        // System.out.println("GCD of " + num1 + " & " + num2 + " is " + GCD.getI(num1, num2));
-        // System.out.println("GCD of " + num1 + " & " + num2 + " is " + GCD.getR(num1, num2));
+        // System.out.println("GCD of " + num1 + " & " + num2 + " is " + GCD.getI(num1,
+        // num2));
+        // System.out.println("GCD of " + num1 + " & " + num2 + " is " + GCD.getR(num1,
+        // num2));
 
         // Calling Mathematics.LCM
-        int num1 = 12, num2 = 15;
-        System.out.println("LCM of " + num1 + " & " + num2 + " is " + LCM.get(num1,num2));
+        // int num1 = 12, num2 = 15;
+        // System.out.println("LCM of " + num1 + " & " + num2 + " is " +
+        // LCM.get(num1,num2));
+
+        // Calling Mathematics.Prime
+        int num = 7;
+        System.out.println("Is " + num + " a prime number : " + Prime.check(num));
     }
 }
