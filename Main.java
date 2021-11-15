@@ -6,7 +6,8 @@
 // import Mathematics.GCD;
 // import Mathematics.LCM;
 // import Mathematics.Prime;
-import Mathematics.PrimeFactors;
+// import Mathematics.PrimeFactors;
+import Mathematics.PrintDivisors;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,8 +47,13 @@ public class Main {
         // System.out.println("Is " + num + " a prime number : " + Prime.check(num));
 
         // Calling Mathematics.PrimeFactors
-        int num = 12;
-        System.out.print("Prime factors of " + num + " are : ");
-        PrimeFactors.printEff(num);
+        // int num = 12;
+        // System.out.print("Prime factors of " + num + " are : ");
+        // PrimeFactors.printEff(num);
+
+        // Calling Mathematics.PrintDivisors
+        int num = 100;
+        System.out.print("Divisors of " + num + " are : ");
+        PrintDivisors.print(num);
     }
 }
