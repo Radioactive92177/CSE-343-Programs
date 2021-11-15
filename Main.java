@@ -65,6 +65,6 @@ public class Main {
 
         // Calling Mathematics.ComputingPower
         int base = 2, power = 3;
-        System.out.println(base + " to the power " + power + " is " + ComputingPower.computeR(base, power));
+        System.out.println(base + " to the power " + power + " is " + ComputingPower.computeBE(base, power));
     }
 }

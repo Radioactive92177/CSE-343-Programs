@@ -29,4 +29,18 @@ public class ComputingPower {
         }
         return temp * base;
     }
+
+    // Binary Exponentiation(most optimized)
+    public static int computeBE(int base, int power){
+        int result = 1;
+
+        while(power > 0){
+            if(power % 2 != 0){
+                result *= base;
+            }
+            base *= base;
+            power /= 2;
+        }
+        return result;
+    }
 }
