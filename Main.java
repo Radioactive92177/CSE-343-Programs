@@ -7,7 +7,8 @@
 // import Mathematics.LCM;
 // import Mathematics.Prime;
 // import Mathematics.PrimeFactors;
-import Mathematics.PrintDivisors;
+// import Mathematics.PrintDivisors;
+import Mathematics.Eratosthenes;
 
 public class Main {
     public static void main(String[] args) {
@@ -52,8 +53,13 @@ public class Main {
         // PrimeFactors.printEff(num);
 
         // Calling Mathematics.PrintDivisors
+        // int num = 100;
+        // System.out.print("Divisors of " + num + " are : ");
+        // PrintDivisors.print(num);
+
+        // Calling Mathematics.Erastosthenes
         int num = 100;
-        System.out.print("Divisors of " + num + " are : ");
-        PrintDivisors.print(num);
+        System.out.print("Prime numbers between 1 to " + num + " are : ");
+        Eratosthenes.print(num);
     }
 }
