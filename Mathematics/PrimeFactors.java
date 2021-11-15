@@ -45,7 +45,7 @@ public class PrimeFactors {
             }
         }
 
-        if (num > 1) {
+        if (num > 3) {
             System.out.print(num + "\n");
         }
     }
