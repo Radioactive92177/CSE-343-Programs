@@ -8,7 +8,8 @@
 // import Mathematics.Prime;
 // import Mathematics.PrimeFactors;
 // import Mathematics.PrintDivisors;
-import Mathematics.Eratosthenes;
+// import Mathematics.Eratosthenes;
+import Mathematics.ComputingPower;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,8 +59,12 @@ public class Main {
         // PrintDivisors.print(num);
 
         // Calling Mathematics.Erastosthenes
-        int num = 100;
-        System.out.print("Prime numbers between 1 to " + num + " are : ");
-        Eratosthenes.print(num);
+        // int num = 100;
+        // System.out.print("Prime numbers between 1 to " + num + " are : ");
+        // Eratosthenes.print(num);
+
+        // Calling Mathematics.ComputingPower
+        int base = 2, power = 3;
+        System.out.println(base + " to the power " + power + " is " + ComputingPower.computeR(base, power));
     }
 }
