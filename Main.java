@@ -5,7 +5,8 @@
 // import Mathematics.TrailingZeros;
 // import Mathematics.GCD;
 // import Mathematics.LCM;
-import Mathematics.Prime;
+// import Mathematics.Prime;
+import Mathematics.PrimeFactors;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,7 +42,12 @@ public class Main {
         // LCM.get(num1,num2));
 
         // Calling Mathematics.Prime
-        int num = 7;
-        System.out.println("Is " + num + " a prime number : " + Prime.check(num));
+        // int num = 7;
+        // System.out.println("Is " + num + " a prime number : " + Prime.check(num));
+
+        // Calling Mathematics.PrimeFactors
+        int num = 12;
+        System.out.print("Prime factors of " + num + " are : ");
+        PrimeFactors.printEff(num);
     }
 }
