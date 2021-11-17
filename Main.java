@@ -12,12 +12,13 @@
 // import Mathematics.ComputingPower;
 
 // import Recursion.Decimal2Binary;
-import Recursion.PrintNTo1;
+// import Recursion.PrintNTo1;
+import Recursion.Print1ToN;
 
 public class Main {
     public static void main(String[] args) {
 
-        //? Mathematics
+        // ? Mathematics
 
         // Calling Mathematics.CountDigits
         // int num = 123;
@@ -70,9 +71,10 @@ public class Main {
 
         // Calling Mathematics.ComputingPower
         // int base = 2, power = 3;
-        // System.out.println(base + " to the power " + power + " is " + ComputingPower.computeBE(base, power));
+        // System.out.println(base + " to the power " + power + " is " +
+        // ComputingPower.computeBE(base, power));
 
-        //? Recursion
+        // ? Recursion
 
         // Calling Recursion.Decimal2Binary
         // int num = 10;
@@ -80,8 +82,15 @@ public class Main {
         // Decimal2Binary.convert(num);
 
         // Calling Recursion.PrintNTo1
-        int num = 10;
-        System.out.print("Printing numbers from " + num + " to 1 : ");
-        PrintNTo1.print(num);
+        // int num = 10;
+        // System.out.print("Printing numbers from " + num + " to 1 : ");
+        // PrintNTo1.print(num);
+
+        // Calling Recursion.Print1ToN
+        int num = 10, start = 1;
+        System.out.print("Printing numbers from 1 to " + num + " : ");
+        Print1ToN.print(num);
+        System.out.print("\nPrinting numbers from 1 to " + num + " : ");
+        Print1ToN.printTR(num, start);
     }
 }
