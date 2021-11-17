@@ -9,10 +9,14 @@
 // import Mathematics.PrimeFactors;
 // import Mathematics.PrintDivisors;
 // import Mathematics.Eratosthenes;
-import Mathematics.ComputingPower;
+// import Mathematics.ComputingPower;
+
+import Recursion.Decimal2Binary;
 
 public class Main {
     public static void main(String[] args) {
+
+        //? Mathematics
 
         // Calling Mathematics.CountDigits
         // int num = 123;
@@ -64,7 +68,14 @@ public class Main {
         // Eratosthenes.print(num);
 
         // Calling Mathematics.ComputingPower
-        int base = 2, power = 3;
-        System.out.println(base + " to the power " + power + " is " + ComputingPower.computeBE(base, power));
+        // int base = 2, power = 3;
+        // System.out.println(base + " to the power " + power + " is " + ComputingPower.computeBE(base, power));
+
+        //? Recursion
+
+        // Calling Recursion.Decimal2Binary
+        int num = 10;
+        System.out.print("Binary equivalent of " + num + " is ");
+        Decimal2Binary.convert(num);
     }
 }
