@@ -11,7 +11,8 @@
 // import Mathematics.Eratosthenes;
 // import Mathematics.ComputingPower;
 
-import Recursion.Decimal2Binary;
+// import Recursion.Decimal2Binary;
+import Recursion.PrintNTo1;
 
 public class Main {
     public static void main(String[] args) {
@@ -74,8 +75,13 @@ public class Main {
         //? Recursion
 
         // Calling Recursion.Decimal2Binary
+        // int num = 10;
+        // System.out.print("Binary equivalent of " + num + " is ");
+        // Decimal2Binary.convert(num);
+
+        // Calling Recursion.PrintNTo1
         int num = 10;
-        System.out.print("Binary equivalent of " + num + " is ");
-        Decimal2Binary.convert(num);
+        System.out.print("Printing numbers from " + num + " to 1 : ");
+        PrintNTo1.print(num);
     }
 }
