@@ -15,7 +15,8 @@
 // import Recursion.PrintNTo1;
 // import Recursion.Print1ToN;
 // import Recursion.NthFibonacci;
-import Recursion.SumOfN;
+// import Recursion.SumOfN;
+import Recursion.Palindrome;
 
 public class Main {
     public static void main(String[] args) {
@@ -101,7 +102,13 @@ public class Main {
         // NthFibonacci.fib(num));
 
         // Calling Recursion.SumOfN
-        int num = 5;
-        System.out.println("Sum of first " + num + " natural numbers is : " + SumOfN.getSum(num));
+        // int num = 5;
+        // System.out.println("Sum of first " + num + " natural numbers is : " +
+        // SumOfN.getSum(num));
+
+        // Calling Recursion.Palindrome
+        String str = "abba";
+        System.out.println(
+                "Is the string \"" + str + "\" a palindrome ? : " + Palindrome.check(str, 0, str.length() - 1));
     }
 }
