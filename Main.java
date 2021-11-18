@@ -16,7 +16,8 @@
 // import Recursion.Print1ToN;
 // import Recursion.NthFibonacci;
 // import Recursion.SumOfN;
-import Recursion.Palindrome;
+// import Recursion.Palindrome;
+import Recursion.SumOfDigits;
 
 public class Main {
     public static void main(String[] args) {
@@ -107,8 +108,13 @@ public class Main {
         // SumOfN.getSum(num));
 
         // Calling Recursion.Palindrome
-        String str = "abba";
-        System.out.println(
-                "Is the string \"" + str + "\" a palindrome ? : " + Palindrome.check(str, 0, str.length() - 1));
+        // String str = "abba";
+        // System.out.println(
+        // "Is the string \"" + str + "\" a palindrome ? : " + Palindrome.check(str, 0,
+        // str.length() - 1));
+
+        // Calling Recursion.SumOfDigits
+        int num = 123;
+        System.out.println("Sum of digits of " + num + " is : " + SumOfDigits.getSum(num));
     }
 }
