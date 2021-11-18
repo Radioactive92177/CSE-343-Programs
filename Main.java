@@ -13,7 +13,8 @@
 
 // import Recursion.Decimal2Binary;
 // import Recursion.PrintNTo1;
-import Recursion.Print1ToN;
+// import Recursion.Print1ToN;
+import Recursion.NthFibonacci;
 
 public class Main {
     public static void main(String[] args) {
@@ -87,10 +88,14 @@ public class Main {
         // PrintNTo1.print(num);
 
         // Calling Recursion.Print1ToN
-        int num = 10, start = 1;
-        System.out.print("Printing numbers from 1 to " + num + " : ");
-        Print1ToN.print(num);
-        System.out.print("\nPrinting numbers from 1 to " + num + " : ");
-        Print1ToN.printTR(num, start);
+        // int num = 10, start = 1;
+        // System.out.print("Printing numbers from 1 to " + num + " : ");
+        // Print1ToN.print(num);
+        // System.out.print("\nPrinting numbers from 1 to " + num + " : ");
+        // Print1ToN.printTR(num, start);
+
+        // Calling Recursion.NthFibonacci
+        int num = 7;
+        System.out.println("The fibonacci number at place " + num + " is : " + NthFibonacci.fib(num));
     }
 }
