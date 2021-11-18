@@ -14,7 +14,8 @@
 // import Recursion.Decimal2Binary;
 // import Recursion.PrintNTo1;
 // import Recursion.Print1ToN;
-import Recursion.NthFibonacci;
+// import Recursion.NthFibonacci;
+import Recursion.SumOfN;
 
 public class Main {
     public static void main(String[] args) {
@@ -95,7 +96,12 @@ public class Main {
         // Print1ToN.printTR(num, start);
 
         // Calling Recursion.NthFibonacci
-        int num = 7;
-        System.out.println("The fibonacci number at place " + num + " is : " + NthFibonacci.fib(num));
+        // int num = 7;
+        // System.out.println("The fibonacci number at place " + num + " is : " +
+        // NthFibonacci.fib(num));
+
+        // Calling Recursion.SumOfN
+        int num = 5;
+        System.out.println("Sum of first " + num + " natural numbers is : " + SumOfN.getSum(num));
     }
 }
