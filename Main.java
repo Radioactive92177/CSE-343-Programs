@@ -18,7 +18,8 @@
 // import Recursion.SumOfN;
 // import Recursion.Palindrome;
 // import Recursion.SumOfDigits;
-import Recursion.RopeCut;
+// import Recursion.RopeCut;
+import Recursion.SubsetsOfString;
 
 public class Main {
     public static void main(String[] args) {
@@ -120,8 +121,16 @@ public class Main {
         // SumOfDigits.getSum(num));
 
         // Calling Recursion.RopeCut
-        int rope = 23, size1 = 11, size2 = 12, size3 = 9;
-        System.out.println("No. ways the rope of length " + rope + " can be cut using the given sizes " + size1 + ", "
-                + size2 + ", " + size3 + " = " + RopeCut.cut(rope, size1, size2, size3));
+        // int rope = 23, size1 = 11, size2 = 12, size3 = 9;
+        // System.out.println("No. ways the rope of length " + rope + " can be cut using
+        // the given sizes " + size1 + ", "
+        // + size2 + ", " + size3 + " = " + RopeCut.cut(rope, size1, size2, size3));
+
+        // Calling Recursion.SubsetsOfString
+        String str = "abc";
+        String current = "";
+        int index = 0;
+
+        SubsetsOfString.print(str, current, index);
     }
 }
