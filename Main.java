@@ -17,7 +17,8 @@
 // import Recursion.NthFibonacci;
 // import Recursion.SumOfN;
 // import Recursion.Palindrome;
-import Recursion.SumOfDigits;
+// import Recursion.SumOfDigits;
+import Recursion.RopeCut;
 
 public class Main {
     public static void main(String[] args) {
@@ -114,7 +115,13 @@ public class Main {
         // str.length() - 1));
 
         // Calling Recursion.SumOfDigits
-        int num = 123;
-        System.out.println("Sum of digits of " + num + " is : " + SumOfDigits.getSum(num));
+        // int num = 123;
+        // System.out.println("Sum of digits of " + num + " is : " +
+        // SumOfDigits.getSum(num));
+
+        // Calling Recursion.RopeCut
+        int rope = 23, size1 = 11, size2 = 12, size3 = 9;
+        System.out.println("No. ways the rope of length " + rope + " can be cut using the given sizes " + size1 + ", "
+                + size2 + ", " + size3 + " = " + RopeCut.cut(rope, size1, size2, size3));
     }
 }
