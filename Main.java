@@ -19,7 +19,8 @@
 // import Recursion.Palindrome;
 // import Recursion.SumOfDigits;
 // import Recursion.RopeCut;
-import Recursion.SubsetsOfString;
+// import Recursion.SubsetsOfString;
+import Recursion.TowerOfHanoi;
 
 public class Main {
     public static void main(String[] args) {
@@ -127,10 +128,14 @@ public class Main {
         // + size2 + ", " + size3 + " = " + RopeCut.cut(rope, size1, size2, size3));
 
         // Calling Recursion.SubsetsOfString
-        String str = "abc";
-        String current = "";
-        int index = 0;
+        // String str = "abc";
+        // String current = "";
+        // int index = 0;
+        // SubsetsOfString.print(str, current, index);
 
-        SubsetsOfString.print(str, current, index);
+        // Calling Recursion.TowerOfHanoi
+        int noOfRings = 3;
+        char from = 'A', to = 'C', using = 'B';
+        System.out.println(TowerOfHanoi.solve(noOfRings, from, using, to));
     }
 }
